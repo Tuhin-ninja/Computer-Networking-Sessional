@@ -26,4 +26,6 @@ public class FileRequest {
     }
 
     public String getRecipient() {
-        re
+        return recipient;
+    }
+}

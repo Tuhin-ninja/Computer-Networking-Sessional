@@ -64,4 +64,10 @@ public class Server {
     }
 
     public static synchronized Map<String, Socket> getConnectedClients() {
-        return new HashMap<>(connectedClien
+        return new HashMap<>(connectedClients);
+    }
+
+    public static synchronized Set<String> getAllUsers() {
+        return new HashSet<>(allUsers);
+    }
+}
